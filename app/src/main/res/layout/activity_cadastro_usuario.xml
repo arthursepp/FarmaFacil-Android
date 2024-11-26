@@ -132,6 +132,7 @@
         android:layout_marginBottom="192dp"
         android:text="Sou fornecedor"
         android:textColor="#2196F3"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -147,6 +148,8 @@
         android:layout_marginEnd="177dp"
         android:text="Já tenho uma conta"
         android:textColor="#2196F3"
+        android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnCadastrar" />

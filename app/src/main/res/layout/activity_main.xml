@@ -103,13 +103,23 @@
         app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
     <TextView
+        android:id="@+id/tvToCadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
+        android:text="Fazer cadastro"
+        android:textColor="#2196F3"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSend" />
+
+    <TextView
         android:id="@+id/tvToLoginFornecedor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="146dp"
-        android:layout_marginTop="52dp"
-        android:layout_marginEnd="142dp"
-        android:layout_marginBottom="86dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="176dp"
         android:text="Sou fornecedor"
         android:textColor="#2196F3"
         android:textSize="18sp"
@@ -117,19 +127,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvToCadastro" />
-
-    <TextView
-        android:id="@+id/tvToCadastro"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="146dp"
-        android:layout_marginTop="155dp"
-        android:layout_marginEnd="146dp"
-        android:text="Fazer cadastro"
-        android:textColor="#2196F3"
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnSend" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

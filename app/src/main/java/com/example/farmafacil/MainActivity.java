@@ -44,5 +44,10 @@ public class MainActivity extends AppCompatActivity { // Declaração da classe 
             startActivity(new Intent(MainActivity.this, CadastroUsuario.class)); // Inicia a Activity CadastroUsuario
             finish(); // Finaliza a Activity atual
         });
+
+        tvToLoginFornecedor.setOnClickListener(v -> { // Define um listener para o TextView tvToLoginFornecedor
+            startActivity(new Intent(MainActivity.this, LoginFornecedor.class)); // Inicia a Activity LoginFornecedor
+            finish(); // Finaliza a Activity atual
+        });
     }
 }

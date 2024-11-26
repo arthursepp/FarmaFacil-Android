@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity { // Declaração da classe 
             Map<String, String> userCredentials = Database.getUserCredentials(); // Obtém as credenciais de usuário do banco de dados
             if (userCredentials.containsKey(username) && userCredentials.get(username).equals(senha)) { // Verifica se as credenciais são válidas
                 Toast.makeText(this, "Login successful", Toast.LENGTH_SHORT).show(); // Exibe uma mensagem de sucesso
+                startActivity(new Intent(MainActivity.this, HomeUsuario.class)); // Inicia a Activity HomeActivity
             } else { // Caso contrário
                 Toast.makeText(this, "Login failed", Toast.LENGTH_SHORT).show(); // Exibe uma mensagem de erro
             }
